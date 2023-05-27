@@ -1,0 +1,30 @@
+{
+  "name": "npm-package",
+  "version": "1.0.0",
+  "description": "Creating NPM Pakcage",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "num run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/heysourin/My-NPM-Package.git"
+  },
+  "keywords": [
+    "npm package"
+  ],
+  "author": "sourin07@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/heysourin/My-NPM-Package/issues"
+  },
+  "homepage": "https://github.com/heysourin/My-NPM-Package#readme",
+  "devDependencies": {
+    "typescript": "^5.0.4"
+  },
+  "files": [
+    "lib/**/*"
+  ]
+}
